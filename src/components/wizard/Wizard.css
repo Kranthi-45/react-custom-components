@@ -1,0 +1,673 @@
+
+.header-item-wrapper
+{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #636161;
+}
+
+.title-item{
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    border: 2px solid #d8cfa2;
+    cursor: not-allowed;
+}
+.title-item.done{
+    cursor: pointer;
+}
+.header-item-wrapper.active
+{
+    font-weight: bold;
+    color: #2d85c9;
+}
+.title-item.active span{
+    color: black;
+}
+
+.middle-arrow{
+    width:160px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='160px' height='40px' viewBox='0 0 160 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3EE51D12A2-B234-4209-B2E6-61BFFD321CB4%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-229.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M367.176536,140.5 L230.545311,140.5 C230.22028,140.5 229.954145,140.539021 229.553659,141.117458 C229.63808,141.31912 229.800441,141.536121 230.032391,141.767191 L245.849535,157.52436 C246.535145,158.20737 246.878192,159.103713 246.878192,160.000163 C246.878192,160.896093 246.535569,161.792207 245.849535,162.47564 L230.032391,178.232809 C229.800515,178.463806 229.638123,178.680853 229.753747,179.377677 C229.953967,179.460993 230.220102,179.5 230.545311,179.5 L367.176536,179.5 C368.714894,179.5 370.853334,178.61531 371.948436,177.52436 L387.765581,161.767191 C388.255004,161.279624 388.5,160.639797 388.5,159.999837 C388.5,159.360272 388.255281,158.720652 387.765581,158.232809 L371.948436,142.47564 C370.854639,141.38599 368.71695,140.5 367.176536,140.5 Z' id='Rectangle-Copy-20'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.first-arrow{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-blue{
+    /* filter: invert(45%) sepia(67%) saturate(605%) hue-rotate(163deg) brightness(90%) contrast(84%); */
+}
+
+.error-wrapper .icon-wrapper{
+    float: left;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+/*Changes for ONEUI-418*/
+.title-item{
+    height: 100%;
+    border: none;
+}
+.middle-arrow{
+    width: 160px !important;
+}
+.first-arrow{
+    width: 150px !important;
+}
+.header-item-wrapper span{
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    /* width: 100%; */
+    font-size: 12px;
+    color: #B6B6B6;
+}
+.wizard-header-container .nav li:first-child .header-item-wrapper{
+    width: 140px;
+}
+.wizard-header-container .nav li:first-child .header-item-wrapper .middle-arrow{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width: 150px !important;
+}
+.wizard-header-container .nav li:first-child .header-item-wrapper .middle-arrow.done{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%232D85C9'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.middle-arrow.done{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='160px' height='40px' viewBox='0 0 160 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3EE51D12A2-B234-4209-B2E6-61BFFD321CB4%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-229.000000, -140.000000)' fill='%23F6F6F6' stroke='%232D85C9'%3E%3Cpath d='M367.176536,140.5 L230.545311,140.5 C230.22028,140.5 229.954145,140.539021 229.553659,141.117458 C229.63808,141.31912 229.800441,141.536121 230.032391,141.767191 L245.849535,157.52436 C246.535145,158.20737 246.878192,159.103713 246.878192,160.000163 C246.878192,160.896093 246.535569,161.792207 245.849535,162.47564 L230.032391,178.232809 C229.800515,178.463806 229.638123,178.680853 229.753747,179.377677 C229.953967,179.460993 230.220102,179.5 230.545311,179.5 L367.176536,179.5 C368.714894,179.5 370.853334,178.61531 371.948436,177.52436 L387.765581,161.767191 C388.255004,161.279624 388.5,160.639797 388.5,159.999837 C388.5,159.360272 388.255281,158.720652 387.765581,158.232809 L371.948436,142.47564 C370.854639,141.38599 368.71695,140.5 367.176536,140.5 Z' id='Rectangle-Copy-20'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    filter: none;
+}
+.middle-arrow.active{
+    filter: invert(45%) sepia(67%) saturate(605%) hue-rotate(163deg) brightness(90%) contrast(84%);
+}
+.header-item-wrapper span{
+    cursor: not-allowed;
+}
+.header-item-wrapper.active span{
+    color: #FFFFFF;
+}
+.header-item-wrapper.done span{
+    color: #2d85c9;
+    cursor: pointer;
+}
+.header-item-wrapper.done span::before{
+    content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='10px' viewBox='0 0 12 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com --%3E%3Ctitle%3E533D8E88-C4ED-4A1F-9929-8EF2F9D7EBCD%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Sticker-Sheet' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='18_Navigation' transform='translate(-246.000000, -356.000000)' stroke='%230086D6' stroke-width='2'%3E%3Cpolyline id='Icon-Copy-2' points='257.181818 357 250.181818 364 247 360.818182'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    top: 1px;
+    right:10px;
+}
+
+.wizard-header{
+    background: #0086d6;
+    color: #fff;
+}
+
+.wizard-header-close{
+    width:10px;
+    height:10px;
+}
+
+/* //breadcrumbs css */
+.inactive {
+    display: none;
+}
+.breadcrumb-row{
+    background-color: #EDEDED;
+    padding: 10px 20px;
+}
+.card {
+    border : none !important;
+}
+.caret-breadcrumb{
+    padding: 5px;
+    color:  #007bff !important;
+}
+.parent-breadcrumb{
+    color:  #007bff !important;
+    cursor: pointer;
+}
+.active.parent-breadcrumb{
+    cursor:auto;
+    opacity: 0.6;
+}
+
+/* //edits------------ */
+.wizard-naviation {
+    background-color: unset;
+    width: 100%;
+    border: none
+}
+
+.wizard-naviation .wizard-header {
+    background: #0086d6;
+    color: #fff
+}
+
+.wizard-naviation .wizard-header .wizard-header-close {
+    width: 10px;
+    height: 10px
+}
+
+.wizard-naviation .card-body {
+    padding: 1.25rem 0px
+}
+
+.wizard-naviation .card-body .header-wrapper {
+    background-color: unset
+}
+
+.wizard-naviation .card-body .title-wrapper ul li:nth-child(1) {
+    width: 140px
+}
+
+.wizard-naviation .card-body .title-wrapper ul li:nth-child(2) {
+    width: 150px
+}
+
+.wizard-naviation .card-body .title-wrapper ul li:nth-child(3) {
+    width: 160px
+}
+
+.wizard-naviation .card-body .title-wrapper ul li:nth-child(4) {
+    width: 170px
+}
+
+.wizard-naviation .card-footer {
+    padding: .75rem 1.875rem
+}
+
+.header-item-wrapper {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #636161
+}
+
+.title-item {
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    border: 2px solid #d8cfa2
+}
+
+.header-item-wrapper.active {
+    font-weight: bold;
+    color: #2d85c9
+}
+
+.title-item.active span {
+    color: #000
+}
+
+.middle-arrow {
+    width: 160px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='160px' height='40px' viewBox='0 0 160 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3EE51D12A2-B234-4209-B2E6-61BFFD321CB4%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-229.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M367.176536,140.5 L230.545311,140.5 C230.22028,140.5 229.954145,140.539021 229.553659,141.117458 C229.63808,141.31912 229.800441,141.536121 230.032391,141.767191 L245.849535,157.52436 C246.535145,158.20737 246.878192,159.103713 246.878192,160.000163 C246.878192,160.896093 246.535569,161.792207 245.849535,162.47564 L230.032391,178.232809 C229.800515,178.463806 229.638123,178.680853 229.753747,179.377677 C229.953967,179.460993 230.220102,179.5 230.545311,179.5 L367.176536,179.5 C368.714894,179.5 370.853334,178.61531 371.948436,177.52436 L387.765581,161.767191 C388.255004,161.279624 388.5,160.639797 388.5,159.999837 C388.5,159.360272 388.255281,158.720652 387.765581,158.232809 L371.948436,142.47564 C370.854639,141.38599 368.71695,140.5 367.176536,140.5 Z' id='Rectangle-Copy-20'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+.first-arrow {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+.error-wrapper .icon-wrapper {
+    float: left;
+    margin-right: 10px;
+    margin-top: -1px
+}
+
+.title-item {
+    height: 100%;
+    border: none
+}
+
+.middle-arrow {
+    width: 160px !important
+}
+
+.first-arrow {
+    width: 150px !important
+}
+
+.header-item-wrapper span {
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    font-size: 12px;
+    color: #b6b6b6;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100px;
+    margin-left: 30px;
+    display: inline-block
+}
+
+.wizard-header-container .nav li:first-child .header-item-wrapper {
+    width: 140px
+}
+
+.wizard-header-container .nav li:first-child .header-item-wrapper span {
+    margin-left: 15px;
+    width: 110px
+}
+
+.wizard-header-container .nav li:first-child .header-item-wrapper .middle-arrow {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width: 150px !important
+}
+
+.wizard-header-container .nav li:first-child .header-item-wrapper .middle-arrow.done {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%232D85C9'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+.middle-arrow.done {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='160px' height='40px' viewBox='0 0 160 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3EE51D12A2-B234-4209-B2E6-61BFFD321CB4%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-229.000000, -140.000000)' fill='%23F6F6F6' stroke='%232D85C9'%3E%3Cpath d='M367.176536,140.5 L230.545311,140.5 C230.22028,140.5 229.954145,140.539021 229.553659,141.117458 C229.63808,141.31912 229.800441,141.536121 230.032391,141.767191 L245.849535,157.52436 C246.535145,158.20737 246.878192,159.103713 246.878192,160.000163 C246.878192,160.896093 246.535569,161.792207 245.849535,162.47564 L230.032391,178.232809 C229.800515,178.463806 229.638123,178.680853 229.753747,179.377677 C229.953967,179.460993 230.220102,179.5 230.545311,179.5 L367.176536,179.5 C368.714894,179.5 370.853334,178.61531 371.948436,177.52436 L387.765581,161.767191 C388.255004,161.279624 388.5,160.639797 388.5,159.999837 C388.5,159.360272 388.255281,158.720652 387.765581,158.232809 L371.948436,142.47564 C370.854639,141.38599 368.71695,140.5 367.176536,140.5 Z' id='Rectangle-Copy-20'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    filter: none
+}
+
+.middle-arrow.active {
+    filter: invert(45%) sepia(67%) saturate(605%) hue-rotate(163deg) brightness(90%) contrast(84%)
+}
+
+.header-item-wrapper.active span {
+    color: #fff
+}
+
+.header-item-wrapper.done span {
+    color: #2d85c9
+}
+
+.header-item-wrapper.done span::before {
+    content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='10px' viewBox='0 0 12 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com --%3E%3Ctitle%3E533D8E88-C4ED-4A1F-9929-8EF2F9D7EBCD%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Sticker-Sheet' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='18_Navigation' transform='translate(-246.000000, -356.000000)' stroke='%230086D6' stroke-width='2'%3E%3Cpolyline id='Icon-Copy-2' points='257.181818 357 250.181818 364 247 360.818182'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    top: 1px;
+    right: 10px
+}
+
+#flowBoxes {
+    margin: auto
+}
+
+#flowBoxes div {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #b6b6b6;
+    margin-right: 5px;
+    background-color: #fff;
+    color: #b6b6b6;
+    font-size: 12px
+}
+
+#flowBoxes div.right {
+    border-radius: 2px;
+    padding: 0 35px 0 35px
+}
+
+#flowBoxes div.right:after {
+    content: "";
+    border-top: 1px solid #b6b6b6;
+    border-right: 1px solid #b6b6b6;
+    width: 29px;
+    height: 28px;
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    background-color: #fff;
+    z-index: 150;
+    border-radius: 2px;
+    -webkit-transform: translate(10px, 4px) rotate(45deg);
+    -moz-transform: translate(10px, 4px) rotate(45deg);
+    -ms-transform: translate(10px, 4px) rotate(45deg);
+    -o-transform: translate(10px, 4px) rotate(20deg);
+    transform: translate(10px, 4px) rotate(45deg)
+}
+
+#flowBoxes div.left.right {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 0 33px 0 38px
+}
+
+#flowBoxes div.left:before {
+    content: "";
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 29px;
+    height: 28px;
+    position: absolute;
+    left: -5px;
+    top: 1px;
+    background-color: #fff;
+    z-index: 50;
+    -webkit-transform: translate(-10px, 4px) rotate(45deg);
+    -moz-transform: translate(-10px, 4px) rotate(45deg);
+    -ms-transform: translate(-10px, 4px) rotate(45deg);
+    -o-transform: translate(-10px, 4px) rotate(20deg);
+    transform: translate(-10px, 4px) rotate(45deg)
+}
+
+#flowBoxes div.left.active:before {
+    border: none
+}
+
+#flowBoxes .active {
+    background-color: #2d85c9;
+    border-color: #2d85c9;
+    color: #fff;
+    font-weight: bold
+}
+
+#flowBoxes div.active:after {
+    background-color: #2d85c9;
+    border-color: #2d85c9
+}
+
+#flowBoxes div.active:before {
+    border-color: #2d85c9
+}
+
+#flowBoxes div.done {
+    border-color: #2d85c9;
+    color: #2d85c9
+}
+
+#flowBoxes div.done:after {
+    border-color: #2d85c9
+}
+
+#flowBoxes div.done:before {
+    border-color: #2d85c9
+}
+
+#flowBoxes div.done span::before {
+    content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='10px' viewBox='0 0 12 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com --%3E%3Ctitle%3E533D8E88-C4ED-4A1F-9929-8EF2F9D7EBCD%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Sticker-Sheet' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='18_Navigation' transform='translate(-246.000000, -356.000000)' stroke='%230086D6' stroke-width='2'%3E%3Cpolyline id='Icon-Copy-2' points='257.181818 357 250.181818 364 247 360.818182'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    top: 1px;
+    right: 10px
+}
+
+.wizard-naviation .wizard-header {
+    background: rgba(0,0,0,0) !important;
+    color: #3a3a3a !important
+}
+
+#flowBoxes .active {
+    background-color: #666 !important;
+    border-color: #666 !important
+}
+
+#flowBoxes .active span {
+    font-size: 12px;
+    font-family: "OpenSansSemiBold"
+}
+
+#flowBoxes div.active:after {
+    background-color: #666 !important;
+    border-color: #666 !important
+}
+
+#flowBoxes div {
+    background-color: #ededed !important;
+    border: 1px solid #ededed !important;
+    color: #ededed !important;
+    font-family: "OpenSansSemiBold"
+}
+
+#flowBoxes div span {
+    color: #3a3a3a !important
+}
+
+#flowBoxes div.right:after {
+    border-top: 1px solid #eaeaec;
+    border-right: 1px solid #eaeaec;
+    background-color: #eaeaec
+}
+
+#flowBoxes div.left:before {
+    border-top: 1px solid #eaeaec;
+    border-right: 1px solid #eaeaec;
+    background-color: #f4f4f4
+}
+
+#flowBoxes div.done {
+    border-color: #eaeaec;
+    color: #272727;
+    font-size: 12px;
+    font-family: "OpenSansSemiBold"
+}
+
+#flowBoxes div.done:after {
+    border-color: #eaeaec
+}
+
+#flowBoxes div.done.right span.headerText::before {
+    content: url("data:image/svg+xml,%3Csvg id='N-Tick' xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath id='Icon_ionic-ios-checkmark-circle' data-name='Icon ionic-ios-checkmark-circle' d='M13.375,4.875a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5m0-1.5a10,10,0,1,1-10,10A10,10,0,0,1,13.375,3.375Z' transform='translate(-3.375 -3.375)' fill='%2369be28'/%3E%3Cpath id='Icon_ionic-ios-checkmark-circle-2' data-name='Icon ionic-ios-checkmark-circle' d='M17.275,10.468,11.608,16.16h0a.765.765,0,0,1-.492.233.742.742,0,0,1-.5-.242L8.243,13.778a.169.169,0,0,1,0-.242L9,12.782a.164.164,0,0,1,.237,0l1.882,1.882,5.171-5.209a.167.167,0,0,1,.119-.051h0a.154.154,0,0,1,.119.051l.742.767A.167.167,0,0,1,17.275,10.468Z' transform='translate(-3.192 -2.404)' fill='%2369be28'/%3E%3C/svg%3E%0A") !important;
+    top: 4px !important;
+    margin-right: 10px
+}
+
+.button-wrapper.float-right {
+    text-align: right !important;
+    float: unset !important
+}
+
+.button-wrapper.float-right .btn.btn-app-tertiary {
+    float: left !important
+}
+
+#flowBoxes div.active.right {
+    padding: 0 35px 0 20px !important
+}
+
+#flowBoxes div.active.right.left {
+    padding: 0px 35px 0 42px !important
+}
+
+#flowBoxes div.done.right .headerCount::before {
+    content: unset !important
+}
+
+#flowBoxes div.right .headerCount::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' opacity='0.75' fill='%23fff' class='bi bi-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/%3E%3C/svg%3E");
+    position: absolute;
+    margin-left: -7px;
+    margin-top: 6px
+}
+
+#flowBoxes div.right.left .headerCount::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%23fff' class='bi bi-circle-fill' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8'/%3E%3C/svg%3E");
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 6px
+}
+
+#flowBoxes div.right.left .headerCount .headerCountColor {
+    color: #272727;
+    position: absolute;
+    font-size: 12px;
+    margin-left: -5px
+}
+
+#flowBoxes div.active.right.left.lastHeader:after {
+    border-top: unset !important;
+    border-right: unset !important;
+    width: 0
+}
+
+#flowBoxes div.right.left.lastHeader:after {
+    border-top: unset !important;
+    width: 0;
+    border-right: unset !important
+}
+
+#flowBoxes span.headerText {
+    margin-left: 10px;
+    font-family: "Arial" !important;
+    font-weight: bold !important
+}
+
+#flowBoxes span.headerCountColor {
+    font-size: 12px;
+    font-family: "Vi-Medium"
+}
+
+#flowBoxes div.right.left span.headerText {
+    margin-left: 15px !important
+}
+
+#flowBoxes div.active.right span.headerText {
+    font-size: 12px;
+    font-family: "OpenSans" !important;
+    margin-left: 15px;
+    color: #fff !important;
+    font-weight: bold !important
+}
+
+#flowBoxes .active span {
+    color: #fff !important;
+    font-weight: bold !important
+}
+
+#flowBoxes .active.right.left span {
+    color: #3a3a3a !important;   
+    font-weight: bold !important;
+}
+
+#flowBoxes div.done span::before {
+    right: unset !important
+}
+
+#flowBoxes .done.right {
+    cursor: pointer
+}
+
+#flowBoxes .done.right span.headerText {
+    margin-left: unset !important
+}
+
+#flowBoxes div.done {
+    padding-left: 10px !important
+}
+
+#flowBoxes .active {
+    font-weight: 400 !important
+}
+
+.breadcrumb-row.header-breadcrumb-row {
+    height: 50px;
+    padding: 15px 30px;
+    background: #eaeaec;
+    position: relative;
+    top: -16px;
+    left: -15px;
+    width: calc(100vw - 242px)
+}
+
+div.menu-collapsed .breadcrumb-row.header-breadcrumb-row {
+    left: -7px;
+    width: calc(100vw - 92px)
+}
+
+.breadcrumb-row .parent-breadcrumb.cursor-pointer {
+    color: #272727;
+    font-size: 12px;
+    margin-right: 10px;
+    font-family: "OpenSansSemiBold";
+    text-decoration: underline;
+    font-weight: 600
+}
+
+.breadcrumb-row .parent-breadcrumb.cursor-pointer:hover {
+    color: #595969
+}
+
+.breadcrumb-row span.caret-breadcrumb {
+    margin-right: 10px
+}
+
+.breadcrumb-row span.child-breadcrumb {
+    color: #595969;
+    font-size: 12px;
+    font-family: "OpenSans, sans-serif"
+}
+
+.header-wrapper-v1 {
+    height: 70px;
+    width: 100%;
+    background-color: #cf0072;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.05);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+.header-wrapper-v1 .header-icons-wrapper {
+    display: flex;
+    margin-left: auto
+}
+
+.header-wrapper-v1 .header-icons-wrapper .header-icon {
+    border-left: 1px solid rgba(234,237,240,.2);
+    width: 70px
+}
+
+.header-wrapper-v1 .header-icons-wrapper .header-icon img {
+    padding: 25px
+}
+
+.header-wrapper-v1 .header-hamburger .toggle-menu-btn {
+    color: #cf0072;
+    font-size: 22px;
+    cursor: pointer
+}
+
+.header-wrapper-v1 .header-hamburger .toggle-menu-btn img {
+    padding: 25px 15px 25px 30px
+}
+
+.header-wrapper-v1 .header-menu-title {
+    font-size: 24px;
+    line-height: 70px;
+    color: #fff
+}
+
+.header-wrapper-v1 .header-logo-wrapper {
+    width: 202px;
+    height: 70px;
+    background-color: #fff
+}
+
+.header-wrapper-v1 .header-logo {
+    padding: 20px 26px
+}
+
+.fragments-container {
+    position: absolute;
+    z-index: 9999 !important
+}
+
+.react-datepicker__day {
+    padding: 9px 7px !important;
+    line-height: 16px !important
+}
+
+.filled .lang-switch-section:hover {
+    background: #f4f4f4 !important
+}
+
+.filled:active .lang-switch-section {
+    background: #f4f4f4 !important
+}

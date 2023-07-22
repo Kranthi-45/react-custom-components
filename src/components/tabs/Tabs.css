@@ -1,0 +1,47 @@
+.tab-parent-container .tab-children {
+    padding: 9px 24px;
+    min-width: 100px;
+    cursor: pointer;
+    /* min-height: 40px; */
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.tab-parent-container .tab-children:hover {
+    background-color: #EDEDED;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.tab-parent-container .tab-children.active {
+    border-bottom: 2px solid  #007bff;
+    color:  #007bff !important;
+}
+
+.tab-parent-container {
+    margin-bottom: 20px;
+    max-height: 40px;
+}
+
+
+.tab-parent-container .tab-children.active:hover {
+    background-color: unset !important;
+}
+
+.tab-parent-container .tab-children {
+    border-radius: 3px 3px 0px 0px;
+}
+
+.tab-parent-container .tab-children {
+    border-radius: 3px 3px 0px 0px;
+    font-family: arial;
+    color: #666 !important;
+    font-size: 12px !important;
+}
+
+.tab-parent-container {
+    display: flex;
+    border-bottom: 1px solid #eaedf0;
+    margin-bottom: 30px;
+}

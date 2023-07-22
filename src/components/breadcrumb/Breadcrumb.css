@@ -1,0 +1,147 @@
+.header-item-wrapper
+{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #636161;
+}
+
+.title-item{
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    border: 2px solid #d8cfa2;
+    cursor: not-allowed;
+}
+.title-item.done{
+    cursor: pointer;
+}
+.header-item-wrapper.active
+{
+    font-weight: bold;
+    color: #2d85c9;
+}
+.title-item.active span{
+    color: black;
+}
+
+.middle-arrow{
+    width:160px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='160px' height='40px' viewBox='0 0 160 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3EE51D12A2-B234-4209-B2E6-61BFFD321CB4%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-229.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M367.176536,140.5 L230.545311,140.5 C230.22028,140.5 229.954145,140.539021 229.553659,141.117458 C229.63808,141.31912 229.800441,141.536121 230.032391,141.767191 L245.849535,157.52436 C246.535145,158.20737 246.878192,159.103713 246.878192,160.000163 C246.878192,160.896093 246.535569,161.792207 245.849535,162.47564 L230.032391,178.232809 C229.800515,178.463806 229.638123,178.680853 229.753747,179.377677 C229.953967,179.460993 230.220102,179.5 230.545311,179.5 L367.176536,179.5 C368.714894,179.5 370.853334,178.61531 371.948436,177.52436 L387.765581,161.767191 C388.255004,161.279624 388.5,160.639797 388.5,159.999837 C388.5,159.360272 388.255281,158.720652 387.765581,158.232809 L371.948436,142.47564 C370.854639,141.38599 368.71695,140.5 367.176536,140.5 Z' id='Rectangle-Copy-20'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.first-arrow{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-blue{
+    /* filter: invert(45%) sepia(67%) saturate(605%) hue-rotate(163deg) brightness(90%) contrast(84%); */
+}
+
+.error-wrapper .icon-wrapper{
+    float: left;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+/*Changes for ONEUI-418*/
+.title-item{
+    height: 100%;
+    border: none;
+}
+.middle-arrow{
+    width: 160px !important;
+}
+.first-arrow{
+    width: 150px !important;
+}
+.header-item-wrapper span{
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    /* width: 100%; */
+    font-size: 12px;
+    color: #B6B6B6;
+}
+.wizard-header-container .nav li:first-child .header-item-wrapper{
+    width: 140px;
+}
+.wizard-header-container .nav li:first-child .header-item-wrapper .middle-arrow{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%23D6D6D6'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width: 150px !important;
+}
+.wizard-header-container .nav li:first-child .header-item-wrapper .middle-arrow.done{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='150px' height='40px' viewBox='0 0 150 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3E2F4C4B55-1BAA-4026-9547-3473DAC09111%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-92.000000, -140.000000)' fill='%23F6F6F6' stroke='%232D85C9'%3E%3Cpath d='M92,143.006501 C92,141.346056 93.3426242,140 95.0055747,140 L220.327057,140 C221.986991,140 224.279285,140.951187 225.443935,142.121416 L241.125991,157.878584 C242.292031,159.05021 242.290641,160.951187 241.125991,162.121416 L225.443935,177.878584 C224.277895,179.05021 221.990008,180 220.327057,180 L95.0055747,180 C93.3456416,180 92,178.657691 92,176.993499 L92,143.006501 Z' id='Rectangle-Copy-18'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.middle-arrow.done{
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='160px' height='40px' viewBox='0 0 160 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 63.1 (101010) - https://sketch.com --%3E%3Ctitle%3EE51D12A2-B234-4209-B2E6-61BFFD321CB4%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Voice-Onboarding_5' transform='translate(-229.000000, -140.000000)' fill='%23F6F6F6' stroke='%232D85C9'%3E%3Cpath d='M367.176536,140.5 L230.545311,140.5 C230.22028,140.5 229.954145,140.539021 229.553659,141.117458 C229.63808,141.31912 229.800441,141.536121 230.032391,141.767191 L245.849535,157.52436 C246.535145,158.20737 246.878192,159.103713 246.878192,160.000163 C246.878192,160.896093 246.535569,161.792207 245.849535,162.47564 L230.032391,178.232809 C229.800515,178.463806 229.638123,178.680853 229.753747,179.377677 C229.953967,179.460993 230.220102,179.5 230.545311,179.5 L367.176536,179.5 C368.714894,179.5 370.853334,178.61531 371.948436,177.52436 L387.765581,161.767191 C388.255004,161.279624 388.5,160.639797 388.5,159.999837 C388.5,159.360272 388.255281,158.720652 387.765581,158.232809 L371.948436,142.47564 C370.854639,141.38599 368.71695,140.5 367.176536,140.5 Z' id='Rectangle-Copy-20'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    filter: none;
+}
+.middle-arrow.active{
+    filter: invert(45%) sepia(67%) saturate(605%) hue-rotate(163deg) brightness(90%) contrast(84%);
+}
+.header-item-wrapper span{
+    cursor: not-allowed;
+}
+.header-item-wrapper.active span{
+    color: #FFFFFF;
+}
+.header-item-wrapper.done span{
+    color: #2d85c9;
+    cursor: pointer;
+}
+.header-item-wrapper.done span::before{
+    content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='10px' viewBox='0 0 12 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com --%3E%3Ctitle%3E533D8E88-C4ED-4A1F-9929-8EF2F9D7EBCD%3C/title%3E%3Cdesc%3ECreated with sketchtool.%3C/desc%3E%3Cg id='Sticker-Sheet' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='18_Navigation' transform='translate(-246.000000, -356.000000)' stroke='%230086D6' stroke-width='2'%3E%3Cpolyline id='Icon-Copy-2' points='257.181818 357 250.181818 364 247 360.818182'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    top: 1px;
+    right:10px;
+}
+
+.wizard-header{
+    background: #0086d6;
+    color: #fff;
+}
+
+.wizard-header-close{
+    width:10px;
+    height:10px;
+}
+
+/* //breadcrumbs css */
+.inactive {
+    display: none;
+}
+.breadcrumb-row{
+    background-color: #EDEDED;
+    padding: 10px 20px;
+}
+.card {
+    border : none !important;
+}
+.caret-breadcrumb{
+    padding: 5px;
+    color:  #007bff !important;
+    font-size: 12px;
+}
+.parent-breadcrumb{
+    font-size: 12px;
+}
+.parent-breadcrumb:not(:last-child){
+    color:  #007bff !important;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.parent-breadcrumb.cursor-pointer{
+    font-weight: 600;
+}
+.active.parent-breadcrumb{
+    cursor:auto;
+    opacity: 0.6;
+    text-decoration: none !important;
+}

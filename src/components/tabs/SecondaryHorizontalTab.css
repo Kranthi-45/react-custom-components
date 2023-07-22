@@ -1,0 +1,144 @@
+select.tab-children-select {
+    background-color: unset !important;
+    border: none;
+    /* padding: 9px 24px; */
+    min-width: 100px;
+    cursor: pointer;
+    min-height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 20px;
+    max-height: 40px;
+}
+
+
+.tab-parent-container .tab-children {
+    border-radius: 3px 3px 0px 0px;
+}
+
+.tab-parent-container .tab-children {
+    border-radius: 3px 3px 0px 0px;
+    font-family: arial;
+    color: #666 !important;
+    font-size: 12px !important;
+}
+
+.tab-parent-container .tab-children {
+    padding: 9px 24px;
+    min-width: 100px;
+    cursor: pointer;
+    min-height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.tab-parent-container select.tab-children-select{
+    background-color: #EDEDED;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.tab-parent-container select.tab-children-select.active {
+    border-bottom: 2px solid  #007bff;
+    color:  #007bff !important;
+    color: unset;
+}
+.tab-parent-container select.tab-children-select.active {
+    background-color: unset;
+}
+/* tab-children-select */
+
+
+
+select.selected-option {
+    background-color: unset;
+    border-bottom: 2px solid #DCDCDC;
+    border-radius: 3px 3px 0px 0px;
+    font-family: arial;
+    color: #666 !important;
+    font-size: 12px !important;
+    border: unset;
+}
+
+select.selected-option.active {
+    /* border-bottom: 2px solid  #007bff; */
+    color:  #007bff !important;
+    color: #007bff ;
+}
+
+.tab-children.active {
+    padding: 9px 24px;
+    min-width: 100px;
+    cursor: pointer;
+    min-height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.tab-parent-container .tab-children {
+    background-color: #EDEDED;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.tab-parent-container .tab-children.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff !important;
+    background: unset;
+}
+
+.selected-option {
+    border-radius: 3px 3px 3px 3px !important;
+    font-family: arial;
+    color: #666 !important;
+    font-size: 12px !important;
+    border: unset !important;
+/* height: 30px;
+width: 80px; */
+border: 1px solid #ededed;
+/* border-radius: 3px; */
+/* background-color: #fff; */
+/* margin-left: 5px; */
+/* margin-right: 0px; */
+display: flex;
+/* align-items: center; */
+justify-content: space-around;
+
+border-radius: 3px 3px 0px 0px;
+    font-family: arial;
+    color: #666 !important;
+    font-size: 12px !important;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 12px;
+    /* margin-left: 2px !important; */
+    cursor: pointer;
+    display: flex !important;
+    /* align-items: center !important;
+    justify-content: space-between !important; */
+    height: auto !important;
+    width: auto !important;
+    padding: 5px 10px !important;
+    /* margin-left: 20px !important; */
+}
+
+.dropdown-menu.show {
+    border-radius: 0px 3px 3px;
+    margin-top: 20px;
+    margin-left: -20px;
+    /* height: auto !important;
+    width: auto !important; */
+}
+
+
+.tab-parent-container {
+    display: flex;
+    border-bottom: 1px solid #eaedf0;
+    margin-bottom: 33px;
+}
+
