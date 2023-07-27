@@ -1,0 +1,133 @@
+/**
+ Color Pallet
+**/
+/* Extended Colors */
+/* Font Families */
+/* Icon Fill */
+/**
+  Dynamic Form Variables
+**/
+/**
+modal variables
+*/
+/*
+Button variables
+*/
+/*
+SideMenu variables
+*/
+.loader_container {
+    box-sizing: border-box;
+    display: flex;
+    width: fit-content; }
+    .loader_container.bottom {
+      flex-direction: column;
+      align-items: center; }
+      .loader_container.bottom .loaderText.default {
+        margin-top: 10px; }
+    .loader_container.right {
+      flex-direction: row;
+      align-items: center; }
+      .loader_container.right .loaderText.default {
+        margin-top: 0px;
+        margin-left: 10px; }
+    .loader_container .loader {
+      border: 8px solid #ededed;
+      border-top-color: #0099FF;
+      border-radius: 50%;
+      position: relative;
+      animation: loader-rotate 1s linear infinite;
+      top: 50%;
+      margin: 0px auto 0; }
+      .loader_container .loader.default {
+        width: 50px;
+        height: 50px;
+        border-width: 4px !important; }
+        .loader_container .loader.default::after {
+          left: 35.5px;
+          width: 4px;
+          height: 4px;
+          top: 3px; }
+        .loader_container .loader.default::before {
+          right: 35.5px;
+          width: 4px;
+          height: 4px;
+          top: 3px; }
+      .loader_container .loader.medium {
+        width: 24px;
+        height: 24px;
+        border-width: 2px !important; }
+        .loader_container .loader.medium::after {
+          left: 17px;
+          width: 2px;
+          height: 2px;
+          top: 1.4px; }
+        .loader_container .loader.medium::before {
+          right: 17px;
+          width: 2px;
+          height: 2px;
+          top: 1.4px; }
+      .loader_container .loader.mini {
+        width: 20px;
+        height: 20px;
+        border-width: 2px !important; }
+        .loader_container .loader.mini::after {
+          left: 13.7px;
+          width: 2px;
+          height: 2px;
+          top: 0.9px; }
+        .loader_container .loader.mini::before {
+          right: 13.7px;
+          width: 2px;
+          height: 2px;
+          top: 0.9px; }
+      .loader_container .loader::after {
+        content: "";
+        background: #0099FF;
+        border-radius: 50%;
+        position: absolute; }
+      .loader_container .loader::before {
+        content: "";
+        background: #0099FF;
+        border-radius: 50%;
+        position: absolute; }
+    .loader_container .loaderPercentage {
+      position: absolute; }
+      .loader_container .loaderPercentage.default {
+        line-height: 50px;
+        font-size: 14px; }
+      .loader_container .loaderPercentage.medium {
+        line-height: 24px;
+        font-size: 10px; }
+      .loader_container .loaderPercentage.mini {
+        line-height: 20px;
+        font-size: 10px; }
+  
+  .loader_container .loader,
+  .loader_container .loader::before,
+  .loader_container .loader::after {
+    box-sizing: inherit; }
+  
+  @keyframes loader-rotate {
+    0% {
+      transform: rotate(0); }
+    100% {
+      transform: rotate(360deg); } }
+  
+  .loader_container .loaderText.default {
+    font-size: 14px;
+    margin-top: 10px; }
+  
+  .loader_container .loaderText.medium,
+  .loader_container .loaderText.mini {
+    font-size: 12px; }
+  
+  .loader_container.bottom .loaderText.medium,
+  .loader_container.bottom .loaderText.mini {
+    margin-top: 5px; }
+  
+  .loader_container.right .loaderText.medium,
+  .loader_container.right .loaderText.mini {
+    margin-top: 0px;
+    margin-left: 5px; }
+  

@@ -4,6 +4,9 @@ import PrimaryHorizontalTab from './components/tabs/PrimaryTabDemo';
 import SecondaryHorizontalDemo from './components/tabs/SecondaryTabDemo';
 import BreadCrumbDemo from './components/breadcrumb/BreadcrumbDemo';
 import WizardDemo from './components/wizard/WizardDemo';
+import LoaderDemo from './components/loader/LoaderDemo';
+import CustomModelComponent from './components/custom-modal/CustomModalDemo';
+import CustomModelDemo from './components/custom-modal/CustomModalDemo';
 
 function App() {
   return (
@@ -26,6 +29,12 @@ function App() {
               </li>
               <li>
                 <Link to="/SecondaryHorizontalDemo">SecondaryHorizontalDemo</Link>
+              </li>
+              <li>
+                <Link to="/Loader">Loader</Link>
+              </li>
+              <li>
+                <Link to="/CustomModal">Custom Modal</Link>
               </li>
             </ul>
           </nav>
@@ -63,14 +72,12 @@ function App() {
             <Route path="/WizardDemo" element= {
               <WizardDemo /> 
             } />
-              {/* <div className="row"> */}
-                {/* <PrimaryHorizontalTab /> */}
-              {/* </div> */}
-            {/* <Route path="/SecondaryHorizontalDemo">
-              <div className="row">
-                <SecondaryHorizontalDemo />
-              </div>
-            </Route> */}
+            <Route path="/Loader" element= {
+              <LoaderDemo /> 
+            } />
+            <Route path="/CustomModal" element= {
+              <CustomModelDemo /> 
+            } />
           </Routes>
         </Router>
       </div>
