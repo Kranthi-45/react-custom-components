@@ -7,6 +7,7 @@ import WizardDemo from './components/wizard/WizardDemo';
 import LoaderDemo from './components/loader/LoaderDemo';
 import CustomModelComponent from './components/custom-modal/CustomModalDemo';
 import CustomModelDemo from './components/custom-modal/CustomModalDemo';
+import TooltipDemo from './components/tooltip/TooltipDemo';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
               </li>
               <li>
                 <Link to="/CustomModal">Custom Modal</Link>
+              </li>
+              <li>
+                <Link to="/CustomTooltip">Custom Tooltip</Link>
               </li>
             </ul>
           </nav>
@@ -78,6 +82,13 @@ function App() {
             <Route path="/CustomModal" element= {
               <CustomModelDemo /> 
             } />
+            <Route path="/CustomTooltip" element= {
+              <TooltipDemo /> 
+            } />
+            <Route path="/CustomModal" element= {
+              <CustomModelDemo /> 
+            } />
+
           </Routes>
         </Router>
       </div>
