@@ -8,6 +8,10 @@ import LoaderDemo from './components/loader/LoaderDemo';
 import CustomModelComponent from './components/custom-modal/CustomModalDemo';
 import CustomModelDemo from './components/custom-modal/CustomModalDemo';
 import TooltipDemo from './components/tooltip/TooltipDemo';
+import CustomPopover from './components/popover/CustomPopover';
+import PopoverDemo from './components/popover/CustomPopoverDemo';
+import TooltipPopoverDemo from './components/tooltip-popover/CustomTooltipPopoverDemo';
+import DropZoneViewer from './components/dropzone/DropzoneDemo';
 
 function App() {
   return (
@@ -39,6 +43,15 @@ function App() {
               </li>
               <li>
                 <Link to="/CustomTooltip">Custom Tooltip</Link>
+              </li>
+              <li>
+                <Link to="/CustomPopover">Custom Popover</Link>
+              </li>
+              <li>
+                <Link to="/CustomTooltipPopover">Custom Tooltip Popover</Link>
+              </li>
+              <li>
+                <Link to="/Dropzone">DropZone</Link>
               </li>
             </ul>
           </nav>
@@ -85,10 +98,15 @@ function App() {
             <Route path="/CustomTooltip" element= {
               <TooltipDemo /> 
             } />
-            <Route path="/CustomModal" element= {
-              <CustomModelDemo /> 
+            <Route path="/CustomPopover" element= {
+              <PopoverDemo /> 
             } />
-
+            <Route path="/CustomTooltipPopover" element= {
+              <TooltipPopoverDemo /> 
+            } />
+            <Route path="/Dropzone" element= {
+              <DropZoneViewer /> 
+            } />            
           </Routes>
         </Router>
       </div>

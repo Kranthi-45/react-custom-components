@@ -1,0 +1,35 @@
+.success-drag-and-drop-container{
+    text-align: center;
+    color: #33495F;
+  }
+  .success-upload-section {
+    padding: 30px;
+  }
+  .uploaded-file-details {
+    padding-left: 8px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .uploaded-file-details .file-name {
+    font-size: 14px;
+  }
+  .uploaded-file-details .file-size {
+    font-size: 12px;
+  }
+  .success-upload-section .uploaded-file {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .success-drag-select-text{
+    padding-top: 15px;
+  }
+  .success-drag-select-text span{
+    font-size: 12px;
+    line-height: 20px;
+    color: #0086D6;
+    cursor: pointer;
+  }
+  .success-drag-select-text .or-text{
+    color: #000;
+  }

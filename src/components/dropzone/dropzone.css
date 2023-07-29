@@ -1,0 +1,27 @@
+.drag-and-drop-container{
+    text-align: center;
+    color: #33495F;
+  }
+  .drop-zone{
+    padding: 20px;
+    border-width: 2px;
+    border-color: rgb(187, 194, 198);
+    border-style: dashed;
+    background-color: rgb(252, 254, 255);
+  }
+  .select_file{
+    background: #00D580;
+    color: #fff;
+    border: none;
+    line-height: 30px;
+    padding: 5px 30px;
+    border-radius: 20px;
+  }
+  .title{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .supported_text{
+    font-size: 12px;
+    margin-top: 17px;
+  }

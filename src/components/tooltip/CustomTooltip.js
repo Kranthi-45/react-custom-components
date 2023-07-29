@@ -5,12 +5,13 @@ import { Tooltip } from 'react-tooltip';
 const CustomTooltip = (props) => {
   const { effect = "solid", content = "", position = "top", uniqueId, colorType } = props;
   // Available values 'dark' | 'light' | 'success' | 'warning' | 'error' | 'info'
-
+  let colorTypes = ['dark','light','success','warning','error','info']
+  console.log("colorType", colorType,!colorTypes.includes(colorType) );
   return (
     <React.Fragment>
-      { !colorType ?
+      { !colorTypes.includes(colorType) ?
       <div key={uniqueId}>
-        <span data-tip={true} data-tooltip-id={uniqueId} data-tooltip-variant="success">
+        <span data-tip={true} data-tooltip-id={uniqueId} >
           <p>{content}</p>
           <Tooltip effect={effect} delayHide={100} delayShow={300} className="custom-tooltip-wrapper" place={position} id={uniqueId}>
             {content}

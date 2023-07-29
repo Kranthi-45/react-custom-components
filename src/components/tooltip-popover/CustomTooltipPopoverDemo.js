@@ -1,9 +1,8 @@
 import React, { useRef } from 'react';
+import CustomTooltipPopover from './CustomTooltipPopover';
 // import './index.css'
-
 // import '../../themes/base-theme.css'
-import CustomTooltip from './CustomTooltip';
-const TooltipDemo = () => {
+const TooltipPopoverDemo = () => {
 
     return (
         <React.Fragment>
@@ -11,25 +10,25 @@ const TooltipDemo = () => {
             <div className="row  my-3">
                 <div className="col-md-3">
                     <div style={{ width: "80px" }}>
-                        <CustomTooltip uniqueId={"1"} position="top" content={"Tooltip top"} colorType={"success"}/>
+                        <CustomTooltipPopover uniqueId={"1"} trigger="click" placement="top" header={"header"} content={"TooltipPopover top"} contentHover={"popover content"} footer={"footer"} />
                     </div>
                 </div>
 
                 <div className="col-md-3">
                     <div style={{ width: "80px" }}>
-                        <CustomTooltip uniqueId={"2"} position="right" content={"Tooltip right"} colorType={"dark"}/>
+                        <CustomTooltipPopover uniqueId={"2"} trigger="focus" placement="right" header={"header"} content={"TooltipPopover right"} contentHover={"popover content"} />
                     </div>
                 </div>
 
                 <div className="col-md-3">
                     <div style={{ width: "80px" }}>
-                        <CustomTooltip uniqueId={"3"} position="left" content={"Tooltip left"}  colorType={"light"} />
+                        <CustomTooltipPopover uniqueId={"3"} trigger="focus" placement="left" content={"TooltipPopover left"} contentHover={"popover content"} />
                     </div>
                 </div>
 
                 <div className="col-md-3">
                     <div style={{ width: "100px" }}>
-                        <CustomTooltip uniqueId={"4"} position="bottom" content={"Tooltip bottom"}/>
+                        <CustomTooltipPopover uniqueId={"4"} trigger="click" placement="bottom" content={"TooltipPopover bottom"} contentHover={"popover content"} />
                     </div>
                 </div>
 
@@ -39,4 +38,4 @@ const TooltipDemo = () => {
     )
 }
 
-export default TooltipDemo;
+export default TooltipPopoverDemo;
